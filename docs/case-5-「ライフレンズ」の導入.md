@@ -5,10 +5,7 @@ categories:
   - new
 date: 2022-11-09T05:03:57.748Z
 ---
-<html lang="en"><head><script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><script src="/images/scripts.js"></script><style>body {margin: 10%;margin-left:20%;}#slider {position: relative;width: 1000px;height: 500px;
- overflow: hidden;box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);}#slider ul {position: relative;
-list-style: none;height: 100%;width: 10000%;padding: 0;margin: 0;transition: all 750ms ease;left: 0;}#slider ul li {position: relative;height: 100%;float: left;}#slider ul li img{width: 1000px;height: 500px;}#slider #prev, #slider #next {width: 50px;line-height: 50px;
-border-radius: 50%;font-size: 2rem;text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);text-align: center;color: white;text-decoration: none;position: absolute;top: 50%;transform: translateY(-50%);transition: all 150ms ease;}#slider #prev:hover, #slider #next:hover {background-color: rgba(0, 0, 0, 0.5);text-shadow: 0;}#slider #prev {left: 10px;}#slider #next {right: 10px;}</style></head>
+<head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="/images/scripts.js"><script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><style>.carousel-indicators {margin-bottom: -100px;static;}.carousel-indicators button[data-target] {width: 50px;}</style></head>
 
 <span class="text-lg text-left font-bold">Case.5 「ライフレンズ」の導入</span>
 
@@ -53,33 +50,20 @@ border-radius: 50%;font-size: 2rem;text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);text
 
 <span class="text-sm text-left">その中で、最近新しく追加された機能についてご紹介します。</span>
 
+<br>
 
+<div id="carouselExampleIndicators" data-interval=2000 class="carousel slide" data-ride="carousel"><div class="carousel-inner"><div class="carousel-item active"><img src="/images/case5-1.png" class="d-block w-100"></div><div class="carousel-item"><img src="/images/case5-2.png" class="d-block w-100"></div><div class="carousel-item"><img src="/images/case5-3.png" class="d-block w-100"></div><div class="carousel-item"><img src="/images/case5-4.png" class="d-block w-100"></div><a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span>
+</a></div><div class="carousel-indicators"><button type="button" data-target="#carouselExampleIndicators" class="active img-thumbnail"data-slide-to="0"><img src="/images/case5-1.png" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="1"><img src="/images/case5-2.png" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="2"><img src="/images/case5-3.png" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="3"><img src="/images/case5-4.png" alt="" class="d-block w-100"></button></div></div>
 
 <br>
 
-<body>
+<br>
 
-<div id="slider">
+<br>
 
-<ul id="slideWrap">
+<br>
 
-<li><img src="/images/1574302761.png" alt=""></li>
-
-<li><img src="/images/1599540407.png" alt=""></li>
-
-<li><img src="/images/1599540773.png" alt=""></li>
-
-<li><img src="/images/image-1-.jpg" alt=""></li>
-
-<li><img src="/images/1599540407.png" alt=""></li>
-
-</ul>
-
-<a id="prev" href="#">&#10094;</a>
-
-<a id="next" href="#">&#10095;</a>
-
-</div>
+<br>
 
 <br>
 
