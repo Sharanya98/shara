@@ -1,5 +1,4 @@
 /node_modules
-/dist
 /.secret
 /yarn-error.log
 
@@ -11,7 +10,6 @@ amplify/mock-data
 amplify/backend/amplify-meta.json
 amplify/backend/.temp
 build/
-dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
