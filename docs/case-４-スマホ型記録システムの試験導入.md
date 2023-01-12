@@ -25,7 +25,7 @@ crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdeli
 
 <div class="border-2 border-black rounded-md outline- 4 p-2 "><ul class="list-disc list-inside "> ＜試験導入概要＞<p>施設：イリーゼ西大宮</p> <p>期間：2019年8月</p> </ul><br></div></input><br>
 
-<img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s96da70f606bae585/image/i96d3b990634ff050/version/1599539957/image.png" data-orig-width="583" data-orig-height="386" alt="" style="height: 527.026px;">
+
 
 <span class="text-xs text-left">＜システム概要＞</span>
 
@@ -49,11 +49,19 @@ crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdeli
 
 <br>
 
+
+
+<span class="text-sm text-left">＜システム概要＞</span>
+
+<span class="text-sm text-left">スマホとQRコードを使った記録システム。QRコードの撮影だけでほとんどの記録ページにアクセスできます。ケアを提供したそのタイミングで瞬時に記録をすることで、業務効率化を実現し、即時に情報を共有することができます。</span>
+
+<br>
+
 ![](/images/1599540407.png)
 
-<span class="text-xm text-left">業務時間削減効果</span>
+<span class="text-sm text-left">【業務時間削減効果】</span>
 
-<span class="text-xs text-left">手書きの帳票を使用していた時と比べて、以下のような効果が確認できました。<br> ①申し送りがスムーズになる<br> ②情報伝達も正確に行われるようになる<br> その結果、1日あたり90分の業務時間を削減することができました。</span></p>
+<span class="text-sm text-left">手書きの帳票を使用していた時と比べて、以下のような効果が確認できました。<br> ①申し送りがスムーズになる<br> ②情報伝達も正確に行われるようになる<br> その結果、1日あたり90分の業務時間を削減することができました。</span></p>
 
 ![](/images/1599540744.png)
 
@@ -61,10 +69,28 @@ crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdeli
 
 <span class="text-xs">【イリーゼ西大宮のスタッフを対象に「Notice」使用に関するアンケートを実施しました。<br> 全ての項目で</span>
 
-<span style="color: #000000; font-size: 14px;" data-mce-style="color: #000000; font-size: 14px;"><img src="https://image.jimcdn.com/app/cms/image/transf/none/path/s96da70f606bae585/image/i3e3286fb466c00e8/version/1599540685/image.png" data-orig-width="815" data-orig-height="609" alt="" style="height: 589.559px;">
+<br>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><div class="carousel-inner"><div class="p-3 carousel-item active"><img src="/images/case4-1.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-2.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-3.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-4.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div>
+
+<a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
+
+<div class="carousel-indicators"><button type="button" data-target="#carouselExampleIndicators" class="active img-thumbnail" data-slide-to="0">
+
+<img src="/images/case4-1.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="1"><img src="/images/case4-2.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="2"><img src="/images/case4-3.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="3"><img src="/images/case4-4.jpg" alt="" class="d-block w-100"></button></div></div>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
 
 ![](/images/1599540773.png)
 
-<span class="text-xs">一番大きな変化はお客様とのコミュニケーションをとる時間が増えたことです。紙の記録は現場を離れて時間に追われながら記載していたのですが、その場で記録することもできるようになり記録の正確性も向上しました。 介護記録については、前日や以前の情報をすぐに確認することができるので、お客様の状況が 正確に把握できるようになりました。紙の記録だとファイリングされている分厚い資料から知りたいことを探すことは大変ですので、情報の精度もかなり向上していると感じています。</span>
+<span class="text-sm">一番大きな変化はお客様とのコミュニケーションをとる時間が増えたことです。紙の記録は現場を離れて時間に追われながら記載していたのですが、その場で記録することもできるようになり記録の正確性も向上しました。 介護記録については、前日や以前の情報をすぐに確認することができるので、お客様の状況が 正確に把握できるようになりました。紙の記録だとファイリングされている分厚い資料から知りたいことを探すことは大変ですので、情報の精度もかなり向上していると感じています。</span>
+
+<br>
 
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <style>
