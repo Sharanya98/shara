@@ -42,5 +42,5 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY}} 
           AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_ACCESS_SECRET}} 
         run: |
-          cp -rf images/  docs/
-          aws s3 cp --recursive --region ap-northeast-1 /docs s3://hitowa-cms-test
+          cp -rf images/ docs/
+          aws s3 cp --recursive --region ap-northeast-1 docs s3://hitowa-cms-test
