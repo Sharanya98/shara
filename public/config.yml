@@ -12,11 +12,7 @@ collections:
     label: Pages
     folder: docs
     create: true
-<<<<<<< HEAD
-     slug: "{{slug}}"
-=======
     slug: "{{slug}}"
->>>>>>> ca0da3a7a9e1c758e4c8bce8ad7e217c3f3bf4ef
     preview_path: docs/{{title}}.html
     identifier_field: title
     editor:
