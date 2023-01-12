@@ -5,10 +5,11 @@ categories:
   - new
 date: 2022-11-08T09:08:30.828Z
 ---
-<html lang="en"><head><script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"><script src="/images/scripts.js"></script><style>body {margin: 10%;margin-left:20%;}#slider {position: relative;width: 1000px;height: 500px;
- overflow: hidden;box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);}#slider ul {position: relative;
-list-style: none;height: 100%;width: 10000%;padding: 0;margin: 0;transition: all 750ms ease;left: 0;}#slider ul li {position: relative;height: 100%;float: left;}#slider ul li img{width: 1000px;height: 500px;}#slider #prev, #slider #next {width: 50px;line-height: 50px;
-border-radius: 50%;font-size: 2rem;text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);text-align: center;color: white;text-decoration: none;position: absolute;top: 50%;transform: translateY(-50%);transition: all 150ms ease;}#slider #prev:hover, #slider #next:hover {background-color: rgba(0, 0, 0, 0.5);text-shadow: 0;}#slider #prev {left: 10px;}#slider #next {right: 10px;}</style></head>
+<head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><title>Image Slider Carousel With Thumbas</title><style>body {/* background: #ccc; */padding-top: 20px;}.carousel-control-prev,.carousel-control-next {width: 150px;/*slide icon close and */color: rgb(255, 0, 0);}.carousel-indicators {margin-bottom: -70px;static;}.carousel-indicators button[data-target] {width: 50px;}.carousel-inner img {width: 100vw; /* Set the width to 100% of the viewport */height: 50vh; /* Set the height to 50% of the viewport */object-fit: fill; /* Scale the images to cover the container */}.carousel-control-prev {background-color: rgb(162, 151, 151);}/* Change the background color of the next button */.carousel-control-next {background-color: rgb(162, 164, 153);}.carousel-control-prev {height: 50px;width: 50px;}/* Change the size of the next button */.carousel-control-next {height: 50px;width: 50px;}/* Change the position of the preview button */.carousel-control-prev {position: absolute;top: 50%;left: 0;}/* Change the position of the next button */.carousel-control-next {position: absolute;top: 50%;right: 0;}.carousel-caption h5 {color: red; /* Change the color of the headings */}.carousel-caption p {font-size:12px; /* Change the font size of the paragraphs */}.carousel-caption {position: absolute;top: 70%;left: 50%;transform: translate(-50%, -50%); /* Center the text within the carousel */}.carousel-item p {background-color: #333; /* This is the background color you want */} /* Change the position of the preview button */</style></head><body>
 
 <span class="text-xm font-bold text-left"><b> Case.４ スマホ型記録システムの試験導入</b></span>
 
@@ -32,35 +33,21 @@ border-radius: 50%;font-size: 2rem;text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);text
 
 <br>
 
-<body>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"><div class="carousel-inner"><div class="p-3 carousel-item active"><img src="/images/case4-1.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-2.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-3.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div><div class="p-3 carousel-item"><img src="/images/case4-4.jpg" class="d-block w-100"><div class="carousel-caption hidden md:block absolute text-center"><h5 class="text-xl">First slide label</h5><p>Some representative placeholder content for the first slide.</p></div></div>
 
-<div id="slider">
+<a class="carousel-control-prev " href="#carouselExampleIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a></div>
 
-<ul id="slideWrap">
+<div class="carousel-indicators"><button type="button" data-target="#carouselExampleIndicators" class="active img-thumbnail" data-slide-to="0">
 
-<li><img src="/images/1574302761.png" alt=""></li>
-
-<li><img src="/images/1599540407.png" alt=""></li>
-
-<li><img src="/images/1599540773.png" alt=""></li>
-
-<li><img src="/images/image-1-.jpg" alt=""></li>
-
-<li><img src="/images/1599540407.png" alt=""></li>
-
-</ul>
-
-<a id="prev" href="#">&#10094;</a>
-
-<a id="next" href="#">&#10095;</a>
-
-</div>
+<img src="/images/case4-1.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="1"><img src="/images/case4-2.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="2"><img src="/images/case4-3.jpg" alt="" class="d-block w-100"></button><button type="button" data-target="#carouselExampleIndicators" class="img-thumbnail" data-slide-to="3"><img src="/images/case4-4.jpg" alt="" class="d-block w-100"></button></div></div>
 
 <br>
 
+<br>
 
+<br>
 
-
+<br>
 
 ![](/images/1599540407.png)
 
