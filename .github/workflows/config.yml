@@ -36,11 +36,11 @@ jobs:
           node-version: "16"
       - name: Install dependencies
         run: npm ciexport NODE_OPTIONS=--openssl-legacy-provider
-      - run: yarn build dist
+      - run: yarn build
       - name: Release to S3
         env:  
           AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY}} 
           AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_ACCESS_SECRET}} 
         run: |
-          cp -rf images/ .vuepress/dist/
+          cp -rf images/ .vuepress/dist/docs/
           aws s3 cp --recursive --region ap-northeast-1 .vuepress/dist s3://hitowa-cms-test
