@@ -42,5 +42,6 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY}} 
           AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_ACCESS_SECRET}} 
         run: |
-          cp -rf images/ dist
+          cp -rf images/ .vuepress/dist
+          rm .vuepress/dist/config.yml
           aws s3 cp --recursive --region ap-northeast-1 dist s3://hitowa-cms-test
