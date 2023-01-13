@@ -1,7 +1,7 @@
 module.exports = {
   title: 'HITOWA',
   description:'HITOWA GROUP MESSAGE',
-  dest: 'dist',
+  dest: '.vuepress/dist',
   public: 'public',
   themeConfig: {
     navbar: false
@@ -13,6 +13,7 @@ module.exports = {
     '!amplify/**',
     '!tools/**'
   ],
+  
   postcss: {
     plugins: [
       require("autoprefixer"),
