@@ -14,13 +14,12 @@ collections:
     create: true
     slug: "{{slug}}"
     preview_path: docs/{{title}}{{images}}.html
-    image_folder: /images
+    image_folder: images
     identifier_field: title
     editor:
       preview: true
     fields:
       - {name: title, widget: string}
-      - {name: layout, widget: select, options: ['grid', 'full-width', 'about', 'contact']}
       - {label: "categories", name: "categories", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
