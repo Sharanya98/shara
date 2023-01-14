@@ -13,7 +13,7 @@ collections:
     folder: docs
     create: true
     slug: "{{slug}}"
-    preview_path: docs/{{title/images}}.html
+    preview_path: docs/{{title}}{{images}}.html
     image_folder: /images
     identifier_field: title
     editor:
