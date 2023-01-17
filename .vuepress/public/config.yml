@@ -5,7 +5,7 @@ publish_mode: editorial_workflow
 media_folder: "/images/"
 preview_context: deploy-preview
 show_preview_links: true 
-display_url: https://hitowa-test-cms.netlify.app
+display_url: https://fancy-donut-aa1533.netlify.app/
 
 collections:
   - name: pages
