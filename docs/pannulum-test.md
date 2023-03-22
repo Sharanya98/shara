@@ -26,6 +26,6 @@ height: 400px;
 
 <div id="panorama">
 
-<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https/imgur.com/fTHreAV"></iframe></div>
+<iframe width="600" height="400" allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.5/pannellum.htm#panorama=https%3A//imgur.com/fTHreAV"></iframe></div>
 
 </body>
